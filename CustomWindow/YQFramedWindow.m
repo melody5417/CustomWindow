@@ -192,7 +192,7 @@ static const NSInteger kFramedWindowButtonsWithoutTabStripOffsetFromLeft = 8;
 - (NSRect)constrainFrameRect:(NSRect)frame toScreen:(NSScreen*)screen {
     // Do not constrain the frame rect if our delegate says no.  In this case,
     // return the original (unconstrained) frame.
-    id delegate = [self delegate];
+    id delegate = [self controller];
     if ([delegate respondsToSelector:@selector(shouldConstrainFrameRect)]
         && ![delegate shouldConstrainFrameRect])
         return frame;

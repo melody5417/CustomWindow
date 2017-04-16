@@ -10,7 +10,7 @@
 #import "YQFramedWindow.h"
 #import "YQTitlebarView.h"
 
-@interface YQWindowController () <YQFrameWindowDelegate, NSWindowDelegate>
+@interface YQWindowController () <YQFrameWindowDelegate>
 @property (nonatomic, strong) YQTitlebarView *titlebar;
 @end
 
@@ -18,7 +18,7 @@
 
 - (instancetype)init {
     if (self = [super initWithWindowNibName:@"YQWindowController"]) {
-        [self.window setDelegate:self];
+        [(YQFramedWindow *)self.window setController:self];
         self.window.titleVisibility = NSWindowTitleHidden;
         self.window.titlebarAppearsTransparent = YES;
         self.window.styleMask |= NSWindowStyleMaskFullSizeContentView;

@@ -17,7 +17,7 @@
 
 @interface YQFramedWindow : YQFullSizeContentWindow
 
-@property (nonatomic, weak) id<YQFrameWindowDelegate> delegate;
+@property (nonatomic, weak) id<YQFrameWindowDelegate> controller;
 
 - (id)initWithContentRect:(NSRect)contentRect
               hasTitleBar:(BOOL)hasTitleBar;
