@@ -7,21 +7,22 @@
 //
 
 #import "AppDelegate.h"
+#import "YQWindowController.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic, strong) YQWindowController *windowController;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    self.windowController = [[YQWindowController alloc] init];
+    [self.windowController showWindow:nil];
 }
 
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
-
 
 @end

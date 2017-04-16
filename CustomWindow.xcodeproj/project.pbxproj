@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		4FA890A81EA3262F005DAC26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA890A71EA3262F005DAC26 /* AppDelegate.m */; };
 		4FA890AB1EA3262F005DAC26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA890AA1EA3262F005DAC26 /* main.m */; };
-		4FA890AE1EA3262F005DAC26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA890AD1EA3262F005DAC26 /* ViewController.m */; };
 		4FA890B01EA3262F005DAC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA890AF1EA3262F005DAC26 /* Assets.xcassets */; };
 		4FA890B31EA3262F005DAC26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA890B11EA3262F005DAC26 /* Main.storyboard */; };
+		4FA890BD1EA32DBC005DAC26 /* YQWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA890BB1EA32DBC005DAC26 /* YQWindowController.m */; };
+		4FA890BE1EA32DBC005DAC26 /* YQWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FA890BC1EA32DBC005DAC26 /* YQWindowController.xib */; };
+		4FA890C11EA331A0005DAC26 /* YQTitlebarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA890C01EA331A0005DAC26 /* YQTitlebarView.m */; };
+		4FA890C71EA3357F005DAC26 /* YQFullSizeContentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA890C61EA3357F005DAC26 /* YQFullSizeContentWindow.m */; };
+		4FA890CA1EA33886005DAC26 /* YQFramedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA890C91EA33886005DAC26 /* YQFramedWindow.m */; };
+		4FA890CD1EA33C15005DAC26 /* YQFullSizeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA890CC1EA33C15005DAC26 /* YQFullSizeContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +24,20 @@
 		4FA890A61EA3262F005DAC26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FA890A71EA3262F005DAC26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4FA890AA1EA3262F005DAC26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4FA890AC1EA3262F005DAC26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4FA890AD1EA3262F005DAC26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4FA890AF1EA3262F005DAC26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FA890B21EA3262F005DAC26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FA890B41EA3262F005DAC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA890BA1EA32DBC005DAC26 /* YQWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQWindowController.h; sourceTree = "<group>"; };
+		4FA890BB1EA32DBC005DAC26 /* YQWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQWindowController.m; sourceTree = "<group>"; };
+		4FA890BC1EA32DBC005DAC26 /* YQWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQWindowController.xib; sourceTree = "<group>"; };
+		4FA890BF1EA331A0005DAC26 /* YQTitlebarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQTitlebarView.h; sourceTree = "<group>"; };
+		4FA890C01EA331A0005DAC26 /* YQTitlebarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQTitlebarView.m; sourceTree = "<group>"; };
+		4FA890C51EA3357F005DAC26 /* YQFullSizeContentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQFullSizeContentWindow.h; sourceTree = "<group>"; };
+		4FA890C61EA3357F005DAC26 /* YQFullSizeContentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQFullSizeContentWindow.m; sourceTree = "<group>"; };
+		4FA890C81EA33886005DAC26 /* YQFramedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQFramedWindow.h; sourceTree = "<group>"; };
+		4FA890C91EA33886005DAC26 /* YQFramedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQFramedWindow.m; sourceTree = "<group>"; };
+		4FA890CB1EA33C15005DAC26 /* YQFullSizeContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQFullSizeContentView.h; sourceTree = "<group>"; };
+		4FA890CC1EA33C15005DAC26 /* YQFullSizeContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQFullSizeContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +72,17 @@
 			children = (
 				4FA890A61EA3262F005DAC26 /* AppDelegate.h */,
 				4FA890A71EA3262F005DAC26 /* AppDelegate.m */,
-				4FA890AC1EA3262F005DAC26 /* ViewController.h */,
-				4FA890AD1EA3262F005DAC26 /* ViewController.m */,
+				4FA890BA1EA32DBC005DAC26 /* YQWindowController.h */,
+				4FA890BB1EA32DBC005DAC26 /* YQWindowController.m */,
+				4FA890BC1EA32DBC005DAC26 /* YQWindowController.xib */,
+				4FA890C51EA3357F005DAC26 /* YQFullSizeContentWindow.h */,
+				4FA890C61EA3357F005DAC26 /* YQFullSizeContentWindow.m */,
+				4FA890C81EA33886005DAC26 /* YQFramedWindow.h */,
+				4FA890C91EA33886005DAC26 /* YQFramedWindow.m */,
+				4FA890BF1EA331A0005DAC26 /* YQTitlebarView.h */,
+				4FA890C01EA331A0005DAC26 /* YQTitlebarView.m */,
+				4FA890CB1EA33C15005DAC26 /* YQFullSizeContentView.h */,
+				4FA890CC1EA33C15005DAC26 /* YQFullSizeContentView.m */,
 				4FA890AF1EA3262F005DAC26 /* Assets.xcassets */,
 				4FA890B11EA3262F005DAC26 /* Main.storyboard */,
 				4FA890B41EA3262F005DAC26 /* Info.plist */,
@@ -136,6 +159,7 @@
 			files = (
 				4FA890B01EA3262F005DAC26 /* Assets.xcassets in Resources */,
 				4FA890B31EA3262F005DAC26 /* Main.storyboard in Resources */,
+				4FA890BE1EA32DBC005DAC26 /* YQWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA890AE1EA3262F005DAC26 /* ViewController.m in Sources */,
+				4FA890CA1EA33886005DAC26 /* YQFramedWindow.m in Sources */,
+				4FA890BD1EA32DBC005DAC26 /* YQWindowController.m in Sources */,
 				4FA890AB1EA3262F005DAC26 /* main.m in Sources */,
 				4FA890A81EA3262F005DAC26 /* AppDelegate.m in Sources */,
+				4FA890C71EA3357F005DAC26 /* YQFullSizeContentWindow.m in Sources */,
+				4FA890C11EA331A0005DAC26 /* YQTitlebarView.m in Sources */,
+				4FA890CD1EA33C15005DAC26 /* YQFullSizeContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YQTitlebarView.h
 //  CustomWindow
 //
 //  Created by yiqiwang(王一棋) on 2017/4/16.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
-
+@interface YQTitlebarView : NSView
 
 @end
-
